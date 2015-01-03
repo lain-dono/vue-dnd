@@ -1,6 +1,6 @@
 {
   "name": "vue-dnd",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DnD (drag and drop) plugin for Vue.js",
   "main": "index.js",
   "scripts": {
