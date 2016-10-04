@@ -50,10 +50,7 @@ exports.install = function(Vue, options) {
 				if (dropTo == self.arg) {
 					event.dataTransfer.effectAllowed = 'all';
 					event.dataTransfer.dropEffect = 'copy';
-				} else {
-					event.dataTransfer.effectAllowed = 'none';
-					event.dataTransfer.dropEffect = 'none';
-				}
+				} 
 				return false;
 			};
 			this.dragleave = function(event) {
